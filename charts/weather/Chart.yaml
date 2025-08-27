@@ -9,9 +9,9 @@ keywords:
   - application
   - edc
   - construct-x
-home: https://github.com/your-org/construct-x-edge-k8s
+home: https://github.com/Projekt-Construct-X/wetter-app
 sources:
-  - https://github.com/your-org/construct-x-edge-k8s
+  - https://github.com/Projekt-Construct-X/wetter-app
 maintainers:
   - name: construct-x Team
     email: team@construct-x.org
