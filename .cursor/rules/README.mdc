@@ -1,0 +1,97 @@
+---
+alwaysApply: true
+---
+
+# Cursor Rules Directory
+
+This directory contains organized rules for working with the construct-x-edge-k8s repository.
+
+## Rule Files
+
+- `general.md` - General development rules, note-taking requirements, and best practices
+- `kubernetes.md` - Kubernetes and Helm-specific development guidelines
+- `security.md` - Security-focused rules and requirements
+- `deployment.md` - Deployment and operational guidelines
+
+## Usage
+
+These rules are automatically loaded by Cursor to provide context-aware assistance. The rules help maintain:
+
+- Consistent code quality
+- Proper documentation practices
+- Security compliance
+- Operational best practices
+
+## Rule Categories
+
+### Context Management
+
+Rules that ensure proper documentation and note-taking for maintaining repository context across sessions.
+
+### Technical Standards
+
+Rules that enforce coding standards, YAML formatting, and Kubernetes best practices.
+
+### Security & Compliance
+
+Rules that ensure security best practices and compliance requirements are met.
+
+### Operational Guidelines
+
+Rules for deployment, monitoring, and maintenance procedures.
+
+## Adding New Rules
+
+When adding new rules:
+
+1. Choose the appropriate category file
+2. Follow the existing format and structure
+3. Include specific, actionable guidelines
+4. Update this README if adding new categories
+
+# Cursor Rules Directory
+
+This directory contains organized rules for working with the construct-x-edge-k8s repository.
+
+## Rule Files
+
+- `general.md` - General development rules, note-taking requirements, and best practices
+- `kubernetes.md` - Kubernetes and Helm-specific development guidelines
+- `security.md` - Security-focused rules and requirements
+- `deployment.md` - Deployment and operational guidelines
+
+## Usage
+
+These rules are automatically loaded by Cursor to provide context-aware assistance. The rules help maintain:
+
+- Consistent code quality
+- Proper documentation practices
+- Security compliance
+- Operational best practices
+
+## Rule Categories
+
+### Context Management
+
+Rules that ensure proper documentation and note-taking for maintaining repository context across sessions.
+
+### Technical Standards
+
+Rules that enforce coding standards, YAML formatting, and Kubernetes best practices.
+
+### Security & Compliance
+
+Rules that ensure security best practices and compliance requirements are met.
+
+### Operational Guidelines
+
+Rules for deployment, monitoring, and maintenance procedures.
+
+## Adding New Rules
+
+When adding new rules:
+
+1. Choose the appropriate category file
+2. Follow the existing format and structure
+3. Include specific, actionable guidelines
+4. Update this README if adding new categories

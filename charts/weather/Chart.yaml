@@ -1,0 +1,17 @@
+apiVersion: v2
+name: weather
+description: Weather application that communicates through EDC for construct-x edge
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+keywords:
+  - weather
+  - application
+  - edc
+  - construct-x
+home: https://github.com/your-org/construct-x-edge-k8s
+sources:
+  - https://github.com/your-org/construct-x-edge-k8s
+maintainers:
+  - name: construct-x Team
+    email: team@construct-x.org

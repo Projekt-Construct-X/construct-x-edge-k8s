@@ -1,0 +1,68 @@
+---
+alwaysApply: true
+---
+
+# General Cursor Rules for construct-x-edge-k8s
+
+## Repository Context & Note-Taking
+
+- **ALWAYS** maintain context awareness by taking detailed notes about repository activities
+- Before making any changes, read and update `.cursor/notes/session_notes.md` with:
+  - Current task or change being made
+  - Files being modified and why
+  - Key discoveries about the codebase structure
+  - Any issues encountered and solutions found
+- Store all session notes in `.cursor/notes/` directory
+- Use descriptive filenames for different types of notes (e.g., `deployment_notes.md`, `configuration_changes.md`)
+
+## Code Quality
+
+- Maintain consistent YAML formatting
+- Use meaningful variable names in values files
+- Add comments for complex template logic
+- Follow semantic versioning for chart versions
+
+## Documentation
+
+- Update README.md when making significant changes
+- Document any new configuration options in values.yaml
+- Explain deployment procedures and requirements
+
+## Safety & Best Practices
+
+- Always backup important configurations before major changes
+- Use appropriate resource limits and requests
+- Follow security best practices for Kubernetes deployments
+- Validate changes in development environment first
+# General Cursor Rules for construct-x-edge-k8s
+
+## Repository Context & Note-Taking
+
+- **ALWAYS** maintain context awareness by taking detailed notes about repository activities
+- Before making any changes, read and update `.cursor/notes/session_notes.md` with:
+  - Current task or change being made
+  - Files being modified and why
+  - Key discoveries about the codebase structure
+  - Any issues encountered and solutions found
+- Store all session notes in `.cursor/notes/` directory
+- Use descriptive filenames for different types of notes (e.g., `deployment_notes.md`, `configuration_changes.md`)
+
+## Code Quality
+
+- Maintain consistent YAML formatting
+- Use meaningful variable names in values files
+- Add comments for complex template logic
+- Follow semantic versioning for chart versions
+
+## Documentation
+
+- Update README.md when making significant changes
+- Document any new configuration options in values.yaml
+- Explain deployment procedures and requirements
+
+## Safety & Best Practices
+
+- Always backup important configurations before major changes
+- Use appropriate resource limits and requests
+- Follow security best practices for Kubernetes deployments
+- Validate changes in development environment first

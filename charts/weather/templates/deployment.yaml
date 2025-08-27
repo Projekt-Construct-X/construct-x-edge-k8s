@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: { { include "weather.name" . } }
+  labels: { { - include "weather.labels" . | nindent 4 } }
+spec:
+  replicas: { { .Values.replicaCount } }
+  selector:
+    matchLabels: { { - include "weather.labels" . | nindent 6 } }
+  template:
+    metadata:
+      labels: { { - include "weather.labels" . | nindent 8 } }
+    spec:
+      containers:
+        - name: weather
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          ports:
+            - containerPort: 80

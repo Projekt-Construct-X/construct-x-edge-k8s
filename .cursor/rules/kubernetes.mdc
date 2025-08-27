@@ -1,0 +1,74 @@
+---
+alwaysApply: true
+---
+
+# Kubernetes & Helm Development Rules
+
+## Overview
+
+- This is a Helm chart repository for Kubernetes deployments
+- Focus on edge computing with EDC (Eclipse Dataspace Connector) and weather services
+
+## Helm Best Practices
+
+- Always validate YAML syntax and Kubernetes resource definitions
+- When modifying templates, ensure proper indentation (2 spaces)
+- Use Helm template functions and values appropriately
+- Follow Kubernetes naming conventions and labels
+- Test chart changes with `helm template` or `helm lint` when possible
+
+## File Structure Guidelines
+
+- Main chart configuration: `Chart.yaml`, `values.yaml`
+- Subcharts located in `charts/` directory (edc, weather)
+- Template files use `.yaml` extension and follow Helm conventions
+- Helper templates go in `_helpers.tpl` files
+
+## Resource Management
+
+- Define appropriate resource limits and requests
+- Use proper labels and selectors
+- Implement health checks (liveness/readiness probes)
+- Follow security contexts and pod security standards
+
+## Configuration Management
+
+- Use values.yaml for configuration
+- Implement proper secret management
+- Use ConfigMaps for non-sensitive configuration
+- Follow the principle of least privilege
+# Kubernetes & Helm Development Rules
+
+## Overview
+
+- This is a Helm chart repository for Kubernetes deployments
+- Focus on edge computing with EDC (Eclipse Dataspace Connector) and weather services
+
+## Helm Best Practices
+
+- Always validate YAML syntax and Kubernetes resource definitions
+- When modifying templates, ensure proper indentation (2 spaces)
+- Use Helm template functions and values appropriately
+- Follow Kubernetes naming conventions and labels
+- Test chart changes with `helm template` or `helm lint` when possible
+
+## File Structure Guidelines
+
+- Main chart configuration: `Chart.yaml`, `values.yaml`
+- Subcharts located in `charts/` directory (edc, weather)
+- Template files use `.yaml` extension and follow Helm conventions
+- Helper templates go in `_helpers.tpl` files
+
+## Resource Management
+
+- Define appropriate resource limits and requests
+- Use proper labels and selectors
+- Implement health checks (liveness/readiness probes)
+- Follow security contexts and pod security standards
+
+## Configuration Management
+
+- Use values.yaml for configuration
+- Implement proper secret management
+- Use ConfigMaps for non-sensitive configuration
+- Follow the principle of least privilege

@@ -1,0 +1,90 @@
+---
+alwaysApply: true
+---
+
+# Security Rules for Kubernetes Edge Deployments
+
+## Container Security
+
+- Use minimal base images (distroless, alpine)
+- Scan images for vulnerabilities
+- Implement proper user contexts (non-root)
+- Set read-only root filesystems where possible
+
+## Kubernetes Security
+
+- Implement Pod Security Standards
+- Use SecurityContext appropriately
+- Apply network policies for traffic control
+- Implement proper RBAC (Role-Based Access Control)
+
+## Secret Management
+
+- Never commit secrets to git
+- Use Kubernetes secrets or external secret managers
+- Rotate secrets regularly
+- Implement proper secret access controls
+
+## Network Security
+
+- Configure ingress with TLS termination
+- Use service mesh for service-to-service communication
+- Implement proper network segmentation
+- Monitor and log network traffic
+
+## Data Protection
+
+- Encrypt data at rest and in transit
+- Implement proper backup and recovery procedures
+- Follow data residency requirements
+- Implement audit logging
+
+## Edge-Specific Security
+
+- Secure device communication channels
+- Implement device authentication and authorization
+- Monitor for unauthorized access attempts
+- Use certificate-based authentication where possible
+# Security Rules for Kubernetes Edge Deployments
+
+## Container Security
+
+- Use minimal base images (distroless, alpine)
+- Scan images for vulnerabilities
+- Implement proper user contexts (non-root)
+- Set read-only root filesystems where possible
+
+## Kubernetes Security
+
+- Implement Pod Security Standards
+- Use SecurityContext appropriately
+- Apply network policies for traffic control
+- Implement proper RBAC (Role-Based Access Control)
+
+## Secret Management
+
+- Never commit secrets to git
+- Use Kubernetes secrets or external secret managers
+- Rotate secrets regularly
+- Implement proper secret access controls
+
+## Network Security
+
+- Configure ingress with TLS termination
+- Use service mesh for service-to-service communication
+- Implement proper network segmentation
+- Monitor and log network traffic
+
+## Data Protection
+
+- Encrypt data at rest and in transit
+- Implement proper backup and recovery procedures
+- Follow data residency requirements
+- Implement audit logging
+
+## Edge-Specific Security
+
+- Secure device communication channels
+- Implement device authentication and authorization
+- Monitor for unauthorized access attempts
+- Use certificate-based authentication where possible

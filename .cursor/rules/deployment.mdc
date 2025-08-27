@@ -1,0 +1,100 @@
+---
+alwaysApply: true
+---
+
+# Deployment and Operations Rules
+
+## Pre-Deployment Checklist
+
+- Validate Helm charts with `helm lint`
+- Test templates with `helm template`
+- Verify resource quotas and limits
+- Check security configurations
+- Validate ingress and service configurations
+
+## Deployment Process
+
+- Use staging environment for testing
+- Implement progressive rollouts
+- Monitor deployment health
+- Have rollback procedures ready
+- Document deployment steps
+
+## Configuration Management
+
+- Use environment-specific values files
+- Implement proper configuration validation
+- Version control all configuration changes
+- Test configuration changes in isolation
+
+## Monitoring and Observability
+
+- Implement health checks for all services
+- Set up logging aggregation
+- Monitor resource utilization
+- Track performance metrics
+- Set up alerting for critical issues
+
+## Maintenance Procedures
+
+- Regular security updates
+- Capacity planning and scaling
+- Backup and disaster recovery testing
+- Documentation updates
+- Dependency updates and vulnerability management
+
+## Edge-Specific Operations
+
+- Handle intermittent connectivity
+- Implement local data processing capabilities
+- Monitor edge device health and status
+- Plan for remote troubleshooting capabilities
+- Implement efficient data synchronization
+# Deployment and Operations Rules
+
+## Pre-Deployment Checklist
+
+- Validate Helm charts with `helm lint`
+- Test templates with `helm template`
+- Verify resource quotas and limits
+- Check security configurations
+- Validate ingress and service configurations
+
+## Deployment Process
+
+- Use staging environment for testing
+- Implement progressive rollouts
+- Monitor deployment health
+- Have rollback procedures ready
+- Document deployment steps
+
+## Configuration Management
+
+- Use environment-specific values files
+- Implement proper configuration validation
+- Version control all configuration changes
+- Test configuration changes in isolation
+
+## Monitoring and Observability
+
+- Implement health checks for all services
+- Set up logging aggregation
+- Monitor resource utilization
+- Track performance metrics
+- Set up alerting for critical issues
+
+## Maintenance Procedures
+
+- Regular security updates
+- Capacity planning and scaling
+- Backup and disaster recovery testing
+- Documentation updates
+- Dependency updates and vulnerability management
+
+## Edge-Specific Operations
+
+- Handle intermittent connectivity
+- Implement local data processing capabilities
+- Monitor edge device health and status
+- Plan for remote troubleshooting capabilities
+- Implement efficient data synchronization
