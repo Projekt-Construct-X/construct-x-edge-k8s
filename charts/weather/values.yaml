@@ -1,7 +1,8 @@
 # Simple weather values
 
 image:
-  repository: "nginx"
-  tag: "1.21-alpine"
+  repository: "ghcr.io/projekt-construct-x/wetter-app"
+  tag: "latest"
+  pullPolicy: "Always"
 
 replicaCount: 1

@@ -1,10 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: { { include "weather.name" . } }
-  labels: { { - include "weather.labels" . | nindent 4 } }
+  name: {{ .Chart.Name }}
+  labels:
+    app: {{ .Chart.Name }}
 spec:
   ports:
     - port: 80
-      targetPort: 80
-  selector: { { - include "weather.labels" . | nindent 4 } }
+      targetPort: 8080
+  selector:
+    app: {{ .Chart.Name }}

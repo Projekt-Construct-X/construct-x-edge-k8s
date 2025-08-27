@@ -85,6 +85,25 @@ This is a Helm chart repository for Kubernetes edge deployments with two main su
 - **Secrets**: Template provided but commented out (uncomment when ready to use)
 - **Target**: Pre-existing "edc" namespace assumption
 
+### Weather Chart Updates (Current Session)
+
+- **Date**: Current session
+- **Task**: Update weather chart to deploy projekt-construct-x/wetter-app:latest
+- **Changes Made**:
+  - Updated `charts/weather/values.yaml`:
+    - Changed image repository from "nginx" to "ghcr.io/projekt-construct-x/wetter-app"
+    - Changed tag from "1.21-alpine" to "latest"
+    - Added `pullPolicy: "Always"` for always pulling latest image
+  - Updated `charts/weather/templates/deployment.yaml`:
+    - Changed container port from 80 to 8080 (application's internal port)
+    - Added `imagePullPolicy: {{ .Values.image.pullPolicy }}` configuration
+    - Fixed Helm template syntax (removed spaces in curly braces)
+  - Updated `charts/weather/templates/service.yaml`:
+    - Changed `targetPort` from 80 to 8080 to match container port
+    - Fixed Helm template syntax (removed spaces in curly braces)
+    - Kept service port as 80 for external access
+  - **Validation**: Chart tested with `helm template` and `helm lint` successfully
+
 ## Next Steps / TODOs
 
 - Continue monitoring and documenting any changes
